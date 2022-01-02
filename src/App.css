@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+input[type="text"]{
+  background-color:#5e5e5e60;
+  color: antiquewhite;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(40px , auto);
+}
+.container{
+  margin-top: 40%;
+  text-align: center;
+  background-color: rgb(58, 58, 58);
+  
+}
+#clear{
+  
+  display: grid;
+  grid-column: 1/3;
+  color: red;
+  background-color: blue;
+}
+#btn{
+  color: rgb(68, 66, 66);
+  background-color: blueviolet;
+}
+#equal{
+  color: red;
+  background-color: blue;
+  display: grid;
+  grid-column: 3/5;
+}
+#del{
+  color: red;
+  background-color: blue;
+
+}
+.button{
+  margin:3px;
+  border-radius: 5px;
+  cursor: pointer; 
+  background-color: #57585a;
+  color: antiquewhite;
+}
